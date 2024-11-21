@@ -1,0 +1,87 @@
+.ff{
+    font-family: "Avenir Next Rounded", sans-serif;
+}
+
+
+.video{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  height: 15vh;
+}
+
+.img1{
+  background-image: url("../assets/1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 63vh;
+}
+
+.img2{
+  background-image: url("../assets/4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 38vh;
+}
+
+.img3{
+  background-image: url("../assets/3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 63vh;
+}
+
+.img4{
+  background-image: url("../assets/2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 54vh;
+}
+
+.img5{
+  background-image: url("../assets/5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 54vh;
+}
+
+.ws{
+  word-spacing: 5px;
+}
+
+.bgimg{
+  background-image: url("../assets/Home.webp");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 75vh;
+display: flex;
+align-items: center;
+justify-content: end;
+padding-right: 120px;
+}
+
+@media (max-width: 780px) {
+  .video {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .bgimg {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+
